@@ -10,7 +10,7 @@ This repo contains the core smart contract, deploy scripts, and full test suite 
 
 | | |
 |---|---|
-| **Live DApp** | https://open-payroll-xyz.vercel.app |
+| **Live DApp** | https://open-payroll-iopn.vercel.app |
 | **DApp Repository** | https://github.com/YOUR_USERNAME/open-payroll-app |
 | **Contract Address** | `0xYourContractAddressHere` |
 | **OPN Explorer** | https://testnet.iopn.tech/address/0xYourContractAddressHere |
@@ -34,18 +34,18 @@ Salary accrues every second. Employees claim whenever they want.
 | Terminate | Stream closed permanently, unstreamed funds stay in employer balance |
 | Withdraw | Employer reclaims unstreamed funds anytime |
 
-### Contract functions
+### Core Functions
 
-depositFunds()                              → employer deposits OPN
-addEmployee(wallet, salaryPerSec)          → start a salary stream
-pauseStream(employeeWallet)                → pause accrual
-resumeStream(employeeWallet)               → resume accrual
-terminateStream(employeeWallet)            → permanently end stream
-withdrawFunds(amount)                      → employer reclaims funds
-claimSalary(employerAddress)               → employee withdraws earned salary
-getClaimable(employer, employee)           → view earned but unclaimed amount
-getEmployee(employer, employee)            → view full employee struct
-getEmployees(employer)                     → list all employee addresses
+* **`depositFunds()`** → employer deposits OPN
+* **`addEmployee(wallet, salaryPerSec)`** → start a salary stream
+* **`pauseStream(employeeWallet)`** → pause accrual
+* **`resumeStream(employeeWallet)`** → resume accrual
+* **`terminateStream(employeeWallet)`** → permanently end stream
+* **`withdrawFunds(amount)`** → employer reclaims funds
+* **`claimSalary(employerAddress)`** → employee withdraws earned salary
+* **`getClaimable(employer, employee)`** → view earned but unclaimed amount
+* **`getEmployee(employer, employee)`** → view full employee struct
+* **`getEmployees(employer)`** → list all employee addresses
 
 ---
 
@@ -74,7 +74,7 @@ getEmployees(employer)                     → list all employee addresses
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/open-payroll-contracts.git
+git clone https://github.com/Malindueng/open-payroll-contracts.git
 cd open-payroll-contracts
 
 # Install
