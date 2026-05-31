@@ -11,7 +11,7 @@ This repo contains the core smart contract, deploy scripts, and full test suite 
 | | |
 |---|---|
 | **Live DApp** | https://open-payroll-iopn.vercel.app |
-| **DApp Repository** | https://github.com/YOUR_USERNAME/open-payroll-app |
+| **DApp Repository** | https://github.com/Malindueng/open-payroll-app |
 | **Contract Address** | `0xYourContractAddressHere` |
 | **OPN Explorer** | https://testnet.iopn.tech/address/0xYourContractAddressHere |
 
