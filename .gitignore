@@ -1,0 +1,19 @@
+# Hardhat compiled artifacts and cache
+artifacts/
+cache/
+
+# Dependencies
+node_modules/
+
+# Environment variables — never commit your private key
+.env
+
+# Hardhat local network data
+deployments/localhost/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
